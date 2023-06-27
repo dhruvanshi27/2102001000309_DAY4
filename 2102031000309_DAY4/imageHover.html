@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .overlay-text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+    <center>
+  <div class="image-container">
+    <img src="/2102031000309_DAY4/what_is_image_Processing.avif" 
+    alt="Image" height="400px" width="500px">
+     <div class="overlay">
+      <!-- <div class="overlay-text">Hover effect text</div>
+    </div> 
+    <div class="image-container"> -->
+        <img src="/2102031000309_DAY4/download.jpeg"
+         alt="Image" height="400px" width="500px">
+      </div>
+  </div></center>
+</body>
+</html>
